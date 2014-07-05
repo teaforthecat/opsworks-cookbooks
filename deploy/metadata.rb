@@ -16,6 +16,7 @@ depends "opsworks_java"
 depends "php"
 depends "mysql"
 depends "opsworks_postgresql"
+depends "scm_helper"
 
 recipe "deploy::scm", "Install and setup the source code management system"
 recipe "deploy::rails", "Deploy a Rails application"
