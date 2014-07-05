@@ -1,3 +1,5 @@
+include_recipe 'scm_helper'
+
 define :opsworks_deploy do
   application = params[:app]
   deploy = params[:deploy_data]
